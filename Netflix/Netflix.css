@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  height: 700px;
+}
+
+.movie-item {
+  background-color: rgb(215, 204, 204);
+  margin: 10px;
+  height: 450px;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transfrom 0.3s ease;
+}
+
+.movie-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.movie-item:hover {
+  transform: scale(1.05);
+}
+
+.movie-item h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: red;
+}
+
+.movie-item p {
+  color: #888;
+}
+
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.content-p3 {
+  background-color: #070606;
+  height: 45px;
+  padding: 0px;
+  color: rgba(216, 18, 18, 0.562);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  content: '';
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 300;
+}
+
+
+.main-box-frame {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100px;
+  background-attachment: fixed;
+  background-image: url("Astronout_image.jpg");
+  font-family: Arial, sans-serif;
+  padding: 100px;
+}
+
+.center-box {
+  width: 160px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  background-attachment: fixed;
+}
+
+.center-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-size: cover;
+  border: 5px solid rgba(88, 63, 94, 0.377);
+}
+
+.main-box-footer {
+  height: 250px;
+  width: 1000px;
+  color: rgba(226, 196, 24, 0.295);
+  display: flex;
+  gap: 50px;
+  padding-left: 110px;
+  padding-top: 30px;
+  border-radius: 10%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.box1 {
+  height: 210px;
+  width: 350px;
+  text-align: center;
+  border-radius: 20px;
+  display: inline;
+}
+
+.box2 {
+  height: 210px;
+  width: 470px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.box2 i {
+  font-size: 35px;
+  display: inline;
+  padding: 15px;
+}
+
+.box2 a {
+  color: rgba(226, 196, 24, 0.295);
+}
+
+.about {
+  color: darkolivegreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.social {
+  color: darkolivegreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+footer {
+  background: #1e1e1e;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.ftext {
+  margin: 0;
+  font-size: 0.8em;
+  color: rgb(158, 173, 173);
+}

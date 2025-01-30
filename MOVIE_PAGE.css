@@ -1,0 +1,472 @@
+/* NAVIGATION BAR */
+.navbar {
+    height: 60px;
+    background-color: #121212;
+    color: white;
+    /* use for displaying proporty in Range manner*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: #e50914;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid rgb(97, 134, 156);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.india {
+    font-size: 0.99rem;
+    margin-left: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(137, 43, 226, 0.623);
+    text-decoration: none;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    color: rgba(137, 43, 226, 0.623);
+}
+
+/* 3rd box*/
+.navigation-search {
+    display: flex;
+    background-color: rgb(62, 110, 109);
+    width: 520px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.navigation-search-borderseperate {
+    border: 3px solid transparent;
+}
+
+.navigation-search-borderseperate:hover {
+    border: 2px solid rgb(108, 128, 53);
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(42, 175, 135);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: rgb(32, 48, 48);
+}
+
+/* 4th box Cart*/
+.navigation-language i {
+    font-size: 23px;
+    color: rgba(137, 43, 226, 0.623);
+    padding-bottom: 20px;
+}
+
+.navigation-language {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: rgba(137, 43, 226, 0.623);
+}
+
+.language-choices {
+    width: 33px;
+    height: 13px;
+    background-color: rgba(137, 43, 226, 0.623);
+    border-radius: 20%;
+}
+
+/* 5th box Sign-in*/
+.span {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.navigation-sign i {
+    font-size: 27px;
+}
+
+.navigation-return i {
+    font-size: 25px;
+}
+
+/* 7th box Cart*/
+.navigation-cart i {
+    font-size: 38px;
+}
+
+.navigation-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: rgba(137, 43, 226, 0.623);
+}
+
+.lang {
+    color: rgba(137, 43, 226, 0.623);
+}
+
+.panel {
+    height: 30px;
+    background-color: #222f3d;
+    text-decoration-color: aliceblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.panel-ops-x {
+    color: #cf360f;
+    display: inline;
+    margin-left: 15px;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("BG_IMAGE/Lambo_car.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero .content {
+    position: relative;
+    z-index: 2;
+    max-width: 1000px;
+    padding-top: 375px;
+    color: #222f3d;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.hero button:hover {
+    background-color: #e50914;
+}
+
+.categories {
+    padding: 20px 20px;
+}
+
+.categories h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.category {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.category img {
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.category img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+footer {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.ftext {
+    margin: 0;
+    font-size: 0.8em;
+    color: rgb(158, 173, 173);
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-1 {
+    background-image: url("BG_IMAGE/Dr_strange_img.jpg");
+    justify-content: right;
+    padding-right: 100px;
+    color: hsl(211, 28%, 19%);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.parallax-2 {
+    background-image: url("BG_IMAGE/Spideman_image.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 130px;
+    font-weight: 800;
+    color: cadetblue;
+}
+
+.parallax-3 {
+    background-image: url("BG_IMAGE/Joker_img.jpg");
+    justify-content: left;
+    padding-left: 50px;
+    color: #222f3d;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content-p {
+    background-color: #58554e54;
+    height: 50px;
+    padding: 0px;
+    color: rgba(36, 153, 182, 0.5);
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    content: '';
+    border-radius: 20px;
+}
+
+.content-p2 {
+    height: 45px;
+    padding: 0px;
+    color: rgb(83, 44, 83);
+    background-image: url("BG_IMAGE/Speed_ball_img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    content: '';
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+
+.content-p3 {
+    background-color: #070606;
+    height: 45px;
+    padding: 0px;
+    color: rgba(216, 18, 18, 0.562);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    content: '';
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+
+.main-box-frame {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100px;
+    background-attachment: fixed;
+    background-image: url("BG_IMAGE/Astronout_image.jpg");
+    font-family: Arial, sans-serif;
+    padding: 100px;
+}
+
+.center-box {
+    width: 160px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    background-attachment: fixed;
+}
+
+.center-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    border: 5px solid rgba(88, 63, 94, 0.377);
+}
+
+.main-box-footer {
+    height: 250px;
+    width: 1000px;
+    color: rgba(226, 196, 24, 0.295);
+    display: flex;
+    gap: 50px;
+    padding-left: 110px;
+    padding-top: 30px;
+    border-radius: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.box1 {
+    height: 210px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    display: inline;
+}
+
+.box2 {
+    height: 210px;
+    width: 470px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box2 i {
+    font-size: 35px;
+    display: inline;
+    padding: 15px;
+}
+
+.box2 a {
+    color: rgba(226, 196, 24, 0.295);
+}
+
+.about {
+    color: darkolivegreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.social {
+    color: darkolivegreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* fywegfywegy----------------------------============== */
+
+.movies-container-x {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.movie-card-x {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+
+.movie-card-x:hover {
+    transform: scale(1.1);
+}
+
+.movie-card-x img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    text-decoration: none;
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.movie-card-x h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #e50914;
+    text-decoration: none;
+}
+
+.movie-card-x p {
+    font-size: 0.9em;
+    color: #bbb;
+    margin: 0 10px 10px;
+    text-decoration: none;
+}

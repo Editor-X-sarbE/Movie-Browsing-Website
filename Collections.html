@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="movie_logo">
+    <link rel="stylesheet" href="Collections.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Collections </title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navigation-logo"> <!--Logo area-->
+                <div class="logo">
+                    <h2>MOVIE HUB</h2>
+                </div> <!---->
+            </div>
+            <!--NAV BAR ADDRESS PART-->
+            <div class="navigation-address">
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="india">India</p>
+                </div>
+            </div>
+            <!--NAVBAR SEARCH ICON PART-->
+            <div class="navigation-search navigation-search-borderseperate">
+                <select class="search-select">
+                    <option>Generes</option>
+                    <option>Horor</option>
+                    <option>Action</option>
+                    <option>SuperHero</option>
+                    <option>Comedy</option>
+                    <option>Adventure</option>
+                    <option>Science Friction</option>
+                </select>
+                <input type="text" id="search" placeholder="Movie Search" class="search-input" onkeyup="searchMovie()">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!--NAVIGATION LANGUAGE PART-->
+            <div class="navigation-language ">
+                <p>Language</p>
+                <i class="fa-solid fa-language"></i>
+                <select class="language-choice">
+                    <option>L</option>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Urdhu</option>
+                </select>
+            </div>
+            <!--NAVIGATION SIGN PART-->
+            <div class="navigation-sign ">
+                <a href="Movies.html"><i class="fa-solid fa-house-chimney-crack"></i></a>
+            </div>
+            <!--NAVIGTION RETURN PART-->
+            <div class="navigation-return ">
+                <a target="_blank" href="LRpage/Login_Page.html"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+            <!--NAVIGATION CART PART-->
+            <div class="navigation-cart ">
+                <a href="Collections.html"><i class="fa-brands fa-opencart"></i></a>
+                <a href="Collections.html">Collection</a>
+            </div>
+        </div>
+
+        <!--BODY PANNEL SECTION 1-->
+        <div class="panel-x">
+            <div class="panel-all-x border">
+                <i class="fa-solid fa-bars"></i>
+                <!-- Category Nav Session -->
+                <select class="nav-categories">
+                    <option value="">All Collections</option>
+                    <option value="">Marvel Universe</option>
+                    <option value="">D-Comic Universe</option>
+                    <option value="">WB Pictures</option>
+                    <option value="">Universal Picture</option>
+                    <option value="">20th-Cent</option>
+                    <option value="">Star Wars</option>
+                </select>
+            </div>
+            <!--PANEL OPOTION SECTION-->
+            <div class="panel-ops-x">
+                <p class="border" id="back"><a href="#mcu">Marvel Universe</a></p>
+                <p class="border"><a href="#dc">D-Comic Universe</a></p>
+                <p class="border"><a href="#wb">WB Pictures</a></p>
+                <p class="border"><a href="#up">Universal Picture</a></p>
+                <p class="border"><a href="#t20">20th-Cent</a></p>
+                <p class="border"><a href="#sw">Star Wars</a></p>
+            </div>
+            <!--PANNEL DALS BLACK-FRIDAY BAR-->
+            <div class="panel-deals-x border">
+                PRE REALESE
+            </div>
+        </div>
+
+
+        <div class="panel">
+            <!--PANEL OPOTION SECTION 2-->
+            <div class="panel-ops">
+                <p id="mcu">MARVEL CINEMATIC UNIVERSE </p>
+                <a href="#back">
+                    <p><i class="fa-solid fa-hand-point-up"></i></p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="movies-container">
+        <a href="https://new1.filesdl.in/cloud/bnDvuDgFg5xIVNH">
+            <div class="movie-card" data-title="InfinityWar">
+                <img src="THUMBNAILS/InfinityWar.jpg" alt="Movie 3">
+                <h3>INFINITY WAR</h3>
+                <p>Genre: Action SuperHero</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://new1.filesdl.in/cloud/AKTjH8LKqd7JH7w">
+            <div class="movie-card" data-title="endgame">
+                <img src="THUMBNAILS/Endgame.png" alt="Movie 4">
+                <h3>ENDGAME</h3>
+                <p>Genre: Action SuperHero</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://vgmlinks.lol/6760af75523d5">
+            <div class="movie-card" data-title="spider man no way home">
+                <img src="THUMBNAILS/spiderman_Noway_Home.jpg" alt="Movie 4">
+                <h3>SPIDER-MAN: NO WAY HOME</h3>
+                <p>Genre: SuperHero Comedy</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="">
+            <div class="movie-card" data-title="black panther">
+                <img src="BG_IMAGE/black_panther.jpg" alt="Movie 4">
+                <h3>BLACK PANTHER</h3>
+                <p>Genre: Action SuperHero</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://clouda.filesdl.in/dl/p0xI3i2G073evJG">
+            <div class="movie-card" data-title="guardians of the galaxy 1">
+                <img src="THUMBNAILS/Guardians_of_the_galaxy_vol1.jpg" alt="Movie 4">
+                <h3>GUARDIANS OF THE GALAXY VOL !</h3>
+                <p>Genre: Action Comedy</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+    </div>
+    <div class="panel">
+        <div class="panel-ops">
+            <p id="dc">D-COMIC UNIVERSE (DC)</p>
+            <a href="#back">
+                <p><i class="fa-solid fa-hand-point-up"></i></p>
+            </a>
+        </div>
+    </div>
+    <div class="movies-container">
+        <a href="https://hubdrive.dad/file/3520150929">
+            <div class="movie-card" data-title="the dark knight riser">
+                <img src="BG_IMAGE/dark_knight" alt="Movie 5">
+                <h3>THE DARK KNIGHT</h3>
+                <p>Genre: Thriller</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <div class="movie-card" data-title="aquaman">
+            <img src="BG_IMAGE/aquaman.jpg" alt="Movie 5">
+            <h3>AQUAMAN</h3>
+            <p>Genre: Action</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="joker">
+            <img src="BG_IMAGE/joker.jpg" alt="Movie 5">
+            <h3>JOKER</h3>
+            <p>Genre: Drama</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="wonder woman">
+            <img src="BG_IMAGE/wonde-woman.jpg" alt="Movie 5">
+            <h3>WONDER WOMAN</h3>
+            <p>Genre: Thriller</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <a href="https://hubdrive.dad/file/3520150929">
+            <div class="movie-card" data-title="the dark knight rises">
+                <img src="BG_IMAGE/dark-rises.jpg" alt="Movie 5">
+                <h3>THE DARK KNIGHT RISES</h3>
+                <p>Genre: Science Friction</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="panel">
+        <div class="panel-ops">
+            <p id="wb">WARNER BROS. PICTURES (WB)</p>
+            <a href="#back">
+                <p><i class="fa-solid fa-hand-point-up"></i></p>
+            </a>
+        </div>
+    </div>
+    <div class="movies-container">
+        <div class="movie-card" data-title="interstellar">
+            <img src="THUMBNAILS/intesteller.jpg" alt="Movie 5">
+            <h3>INTERSTELLAR</h3>
+            <p>Genre: Science Friction</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <a href="https://hubdrive.dad/file/3623352006">
+            <div class="movie-card" data-title="INCEPTION">
+                <img src="BG_IMAGE/inception_im.jpg" alt="Movie 5">
+                <h3>INCEPTION</h3>
+                <p>Genre: Science Friction</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <div class="movie-card" data-title="harry potter 1">
+            <img src="BG_IMAGE/harry-potter.jpg" alt="Movie 5">
+            <h3>HARRY POTTER !</h3>
+            <p>Genre: Adventure</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="the lord of rings">
+            <img src="BG_IMAGE/LordoftheRings.jpeg" alt="Movie 5">
+            <h3>THE LORD OF RINGS</h3>
+            <p>Genre: ACTION </p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="barbie">
+            <img src="BG_IMAGE/barbie.jpg" alt="Movie 5">
+            <h3>BARBIE</h3>
+            <p>Genre: Romantic Comedy</p>
+            <p>Quality: 1080p</p>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-ops">
+            <p id="up">UNIVERSAL PICTURES</p>
+            <a href="#back">
+                <p><i class="fa-solid fa-hand-point-up"></i></p>
+            </a>
+        </div>
+    </div>
+    <div class="movies-container">
+        <div class="movie-card" data-title="JURASSIC WORLD">
+            <img src="BG_IMAGE/jurasic.jpg" alt="Movie 5">
+            <h3>JURASSIC WORLD</h3>
+            <p>Genre: Adventure</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <a href="https://bollydrive.rest/file/64911390">
+            <div class="movie-card" data-title="fast & furious 7">
+                <img src="BG_IMAGE/fast-and-furious.jpg" alt="Movie 5">
+                <h3>FAST & FURIOUS 7</h3>
+                <p>Genre: ACTION</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <div class="movie-card" data-title="MINIONS">
+            <img src="BG_IMAGE/minion.jpg" alt="Movie 5">
+            <h3>MINIONS</h3>
+            <p>Genre: Cartoon</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="the super mario">
+            <img src="BG_IMAGE/super-mario.jpg" alt="Movie 5">
+            <h3>THE SUPER MARIO</h3>
+            <p>Genre: Cartoon</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="DESPICABLE me 3">
+            <img src="BG_IMAGE/despicable.jpg" alt="Movie 5">
+            <h3>DESPICABLE Me 3</h3>
+            <p>Genre: Science Friction</p>
+            <p>Quality: 1080p</p>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-ops">
+            <p id="t20">20th CENTUY STUDIOS</p>
+            <a href="#back">
+                <p><i class="fa-solid fa-hand-point-up"></i></p>
+            </a>
+        </div>
+    </div>
+    <div class="movies-container">
+        <div class="movie-card" data-title="CITIZEN kane">
+            <img src="BG_IMAGE/citizen-kane.jpg" alt="Movie 5">
+            <h3>CITIZEN KANE</h3>
+            <p>Genre: Drama</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <a href="https://hubdrive.dad/file/4326356682">
+            <div class="movie-card" data-title="the god father">
+                <img src="BG_IMAGE/god-fthr" alt="Movie 5">
+                <h3>THE GOD FATHER</h3>
+                <p>Genre: Crime Drama</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <div class="movie-card" data-title="SINGIN in the rain">
+            <img src="BG_IMAGE/shining-rain.jpg" alt="Movie 5">
+            <h3>SINGIN IN THE RAIN</h3>
+            <p>Musical</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="VERTIGO">
+            <img src="BG_IMAGE/vertigo" alt="Movie 5">
+            <h3>VERTIGO</h3>
+            <p>Genre: Psycological Thriller</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="CASABALANCA">
+            <img src="BG_IMAGE/casbalance.jpg" alt="Movie 5">
+            <h3>CASABALANCA</h3>
+            <p>Genre: Romantic Drama</p>
+            <p>Quality: 1080p</p>
+        </div>
+    </div>
+
+    <div class="panel">
+        <div class="panel-ops">
+            <p id="sw">STAR WARS</p>
+            <a href="#back">
+                <p><i class="fa-solid fa-hand-point-up"></i></p>
+            </a>
+        </div>
+    </div>
+    <div class="movies-container">
+        <a href="https://links.bollydrive.rest/archives/1975">
+            <div class="movie-card" data-title="star wars a new hope">
+                <img src="BG_IMAGE/sw-newhope.jpg" alt="Movie 5">
+                <h3>STAR WARS: A NEW HOPE</h3>
+                <p>Genre: Sci-fi/Fantasy</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <a href="https://links.bollydrive.rest/archives/1975">
+            <div class="movie-card" data-title="star wars the empire strikes back">
+                <img src="BG_IMAGE/sw-empire.jpg" alt="Movie 5">
+                <h3>STAR WARS: THE EMPIER STRIKES BACK</h3>
+                <p>Genre: Sci-fi/Fantasy</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <a href="https://links.bollydrive.rest/archives/1975">
+            <div class="movie-card" data-title="star wars the force AWAKENS">
+                <img src="BG_IMAGE/sw-force.jpg" alt="Movie 5">
+                <h3>STAR WARS: THE FORCE AWAKENS</h3>
+                <p>Genre: Sci-fi/Fantasy</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <a href="https://links.bollydrive.rest/archives/1975">
+            <div class="movie-card" data-title="star wars return of jedi">
+                <img src="BG_IMAGE/sw-returj-jedi.jpg" alt="Movie 5">
+                <h3>STAR WARS: RETURN OF JEDI</h3>
+                <p>Genre: Sci-fi/Fantasy</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <a href="https://links.bollydrive.rest/archives/1975">
+            <div class="movie-card" data-title="star wars the rise of SKYWALKER">
+                <img src="BG_IMAGE/sw-skywalker" alt="Movie 5">
+                <h3>STAR WARS: THE RISE OF SKYWALKER</h3>
+                <p>Genre: Sci-fi/Fantasy</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="section content-p3">
+        <p class="prg">Developer Info </p>
+    </div>
+
+    <div class="main-box-frame">
+        <div class="center-box">
+            <img src="EDITORx_.jpg" alt="Developer_Image">
+        </div>
+        <div class="main-box-footer">
+            <div class="box1">
+                <p class="about">About</p>
+                <p class="">@Developed by - SARBESWAR ROUT </p>
+                <p class="">BCA Graduate </p>
+                <p class="">IT Enthuastics </p>
+            </div>
+            <div class="box2">
+                <p class="social">Social Links</p>
+                <a href="https://github.com/Editor-X-sarbE" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sarbeswar-rout-editx011/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100069152012093&mibextid=2JQ9oc%20%20:-%20FACEBOOK"
+                    target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/editor_x_sarbe" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCDq-5reSMvf-dX1AV8uAohA" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.threads.net/@editor__x__sarbe" target="_blank"><i
+                        class="fa-brands fa-square-threads"></i></a>
+                <a href="https://x.com/Sarbeswar_rout_" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                <p class="i">Github Linked.in Facebook Instagram Youtube Threads Twitter</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="Collections.js"></script>
+</body>
+
+<footer>
+    <p class="ftext">&copy; 2024 Browse_x_Movies .</p>
+</footer>
+
+</html>

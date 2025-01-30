@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="movie_logo">
+    <link rel="stylesheet" href="Movies.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MOVIES HUB</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navigation-logo"> <!--Logo area-->
+                <div class="logo">
+                    <h2>MOVIE HUB</h2>
+                </div> <!---->
+            </div>
+            <!--NAV BAR ADDRESS PART-->
+            <div class="navigation-address">
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="india">India</p>
+                </div>
+            </div>
+            <!--NAVBAR SEARCH ICON PART-->
+            <div class="navigation-search navigation-search-borderseperate">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Categories _*</option>
+                    <option>Categories _*</option>
+                    <option>Categories _*</option>
+                </select>
+                <input type="text" id="search" placeholder="Movie Search" class="search-input" onkeyup="searchMovie()">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!--NAVIGATION LANGUAGE PART-->
+            <div class="navigation-language ">
+                <p>Language</p>
+                <i class="fa-solid fa-language"></i>
+                <select class="language-choice">
+                    <option>L</option>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Urdhu</option>
+                </select>
+            </div>
+            <!--NAVIGATION SIGN PART-->
+            <div class="navigation-sign ">
+                <a href="MOVIE_PAGE.html"><i class="fa-solid fa-house-chimney-crack"></i></a>
+            </div>
+            <!--NAVIGTION RETURN PART-->
+            <div class="navigation-return ">
+                <a target="_blank" href="LRpage/Login_Page.html"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+            <!--NAVIGATION CART PART-->
+            <div class="navigation-cart ">
+                <a href="Collections.html"><i class="fa-brands fa-opencart"></i></a>
+                <a href="Collections.html">Collection</a>
+            </div>
+        </div>
+
+        <!--BODY PANNEL SECTION-->
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                <!-- Category Nav Session -->
+                <select class="nav-categories">
+                    <option value="">Categories</option>
+                    <option value="">Hollywood Movies</option>
+                    <option value="">Bollywood Movies</option>
+                    <a href="marvel.html">
+                        <option value="">Marvel Movies</option>
+                    </a>
+                    <option value="">Dc Movies</option>
+                    <option value="">Wb Movies</option>
+                </select>
+            </div>
+            <!--PANEL OPOTION SECTION-->
+            <div class="panel-ops">
+                <p class="border"><a href="marvel.html" target="_blank">Marvel Studios</a></p>
+                <p class="border"><a href="Webseries/Webseries.html" target="_blank">Web Series</a></p>
+                <p class="border"><a href="Horror/Horror.html" target="_blank">Horror</a></p>
+                <p class="border"><a href="">Animations</a></p>
+                <p class="border"><a href="Netflix/Netflix.html" target="_blank">Netflix</a></p>
+                <p class="border"><a href="">Disney Hostar</a></p>
+                <p class="border"><a href="">Prime</a></p>
+                <p class="border"><a href="bollywood.html" target="_blank">Bollywood</a></p>
+                <p class="border"><a href="south.html" target="_blank">South</a></p>
+                <p class="border"><a href="https://hdhub4u.tw/?s=ullu" target="_blank">!8+</a></p>
+            </div>
+            <!--PANNEL DALS BLACK-FRIDAY BAR-->
+            <div class="panel-deals border">
+                LATEST TRENDS
+            </div>
+        </div>
+    </header>
+
+    <div class="movies-container">
+        <a href="https://hblinks.pro/archives/79948">
+            <div class="movie-card" data-title="Pushpa">
+                <img src="THUMBNAILS/Puspa.jpg" alt="Movie 1">
+                <h3>PUSHPA 2</h3>
+                <p>Genre: Action</p>
+                <p>Quality: 720p</p>
+            </div>
+        </a>
+
+        <a href="https://hubdrive.my/file/1697461617">
+            <div class="movie-card" data-title="nun2">
+                <img src="THUMBNAILS/Nun2.jpg" alt="Movie 2">
+                <h3>NUN !!</h3>
+                <p>Genre: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://new1.filesdl.in/cloud/bnDvuDgFg5xIVNH">
+            <div class="movie-card" data-title="InfinityWar">
+                <img src="THUMBNAILS/InfinityWar.jpg" alt="Movie 3">
+                <h3>INFINITY WAR</h3>
+                <p>Genre: Action</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://new1.filesdl.in/cloud/AKTjH8LKqd7JH7w">
+            <div class="movie-card" data-title="Endgame">
+                <img src="THUMBNAILS/Endgame.png" alt="Movie 4">
+                <h3>ENDGAME</h3>
+                <p>Genre: Action</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://hblinks.pro/archives/75693">
+            <div class="movie-card" data-title="Mirzapur">
+                <img src="THUMBNAILS/Mirzapur S3.jpg" alt="Movie 5">
+                <h3>MIRZAPUR S3</h3>
+                <p>Genre: Drama</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <a href="https://archive.org/download/GOT.S01.720p.BluRay.Full.Pack.MR.ZAZA">
+            <div class="movie-card" data-title="Got">
+                <img src="THUMBNAILS/GOT.jpg" alt="Movie 5">
+                <h3>GOT</h3>
+                <p>Genre: Thriller</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <a href="https://hubdrive.dad/file/1700643076">
+            <div class="movie-card" data-title="breaking bad">
+                <img src="THUMBNAILS/breaking_badx.jpeg" alt="Movie 5">
+                <h3>BREAKING BAD S5</h3>
+                <p>Genre: Action</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+        <div class="movie-card" data-title="panchayat">
+            <img src="THUMBNAILS/panchayat.jpg" alt="Movie 5">
+            <h3>PANCHAYAT</h3>
+            <p>Genre: Drama</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="asur">
+            <img src="THUMBNAILS/Asur_s2.jpg" alt="Movie 5">
+            <h3>ASUR</h3>
+            <p>Genre: Thriller</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="interstellar">
+            <img src="THUMBNAILS/intesteller.jpg" alt="Movie 5">
+            <h3>INTERSTELLAR</h3>
+            <p>Genre: Science Friction</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="kalki 298d">
+            <img src="THUMBNAILS/kalki.jpg" alt="Movie 5">
+            <h3>KALKI 298D</h3>
+            <p>Genre: Action</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="avatar">
+            <img src="THUMBNAILS/avatar.jpg" alt="Movie 5">
+            <h3>AVATAR</h3>
+            <p>Genre: Film Series</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <div class="movie-card" data-title="it">
+            <img src="THUMBNAILS/it.jpg" alt="Movie 5">
+            <h3>IT</h3>
+            <p>Genre: Horror</p>
+            <p>Quality: 1080p</p>
+        </div>
+        <a href="https://www.mediafire.com/file/on6qkog94t0gkkd">
+            <div class="movie-card" data-title="fighter">
+                <img src="THUMBNAILS/fighter_1 movie.jpg" alt="movie 5">
+                <h3>FIGHTER</h3>
+                <p>Gener: Action</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+    </div>
+    <div class="section content-p3">
+        <p class="prg">Developer Info </p>
+    </div>
+    <div class="main-box-frame">
+        <div class="center-box">
+            <img src="EDITORx_.jpg" alt="Developer_Image">
+        </div>
+        <div class="main-box-footer">
+            <div class="box1">
+                <p class="about">About</p>
+                <p class="">@Developed by - SARBESWAR ROUT </p>
+                <p class="">BCA Graduate </p>
+                <p class="">IT Enthuastics </p>
+            </div>
+            <div class="box2">
+                <p class="social">Social Links</p>
+                <a href="https://github.com/Editor-X-sarbE" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sarbeswar-rout-editx011/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100069152012093&mibextid=2JQ9oc%20%20:-%20FACEBOOK"
+                    target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/editor_x_sarbe" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCDq-5reSMvf-dX1AV8uAohA" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.threads.net/@editor__x__sarbe" target="_blank"><i
+                        class="fa-brands fa-square-threads"></i></a>
+                <a href="https://x.com/Sarbeswar_rout_" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                <p class="i">Github Linked.in Facebook Instagram Youtube Threads Twitter</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="Movies.js"></script>
+</body>
+
+<footer>
+    <p class="ftext">&copy; 2024 Browse_x_Movies .</p>
+</footer>
+
+</html>

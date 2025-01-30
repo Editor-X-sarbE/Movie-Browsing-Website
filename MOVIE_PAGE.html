@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="movie_logo">
+    <link rel="stylesheet" href="MOVIE_PAGE.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MOVIE</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navigation-logo"> <!--Logo area-->
+                <div class="logo">
+                    <h2>MOVIE HUB</h2>
+                </div> <!---->
+            </div>
+            <!--NAV BAR ADDRESS PART-->
+            <div class="navigation-address">
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="india">India</p>
+                </div>
+            </div>
+            <!--NAVBAR SEARCH ICON PART-->
+            <div class="navigation-search navigation-search-borderseperate">
+                <input placeholder="Movie Search...." class="search-input" type="text" id="search"
+                    onkeyup="searchMovie()">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!--NAVIGATION LANGUAGE PART-->
+            <div class="navigation-language ">
+                <p class="lang">Language</p>
+                <i class="fa-solid fa-language"></i>
+                <select class="language-choices">
+                    <option>L</option>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Urdhu</option>
+                </select>
+            </div>
+            <!--NAVIGATION SIGN PART-->
+            <div class="navigation-sign ">
+                <a href="Movies.html"><i class="fa-solid fa-house-chimney-crack"></i></a>
+            </div>
+            <!--NAVIGTION RETURN PART-->
+            <div class="navigation-return ">
+                <a target="_blank" href="LRpage/Login_Page.html"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+            <!--NAVIGATION CART PART-->
+            <div class="navigation-cart ">
+                <a href="Collections.html"><i class="fa-brands fa-opencart"></i></a>
+                Collection
+            </div>
+        </div>
+
+        <!--BODY PANNEL SECTION-->
+        <div class="panel">
+            <div class="panel-ops-x ">
+                <p id="txtx">Latest Movie Browse</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="content">
+            <h1>Discover Your Next Favorite Movie </h1>
+            <a href="Movies.html"><button class="explore">Explore</button></a>
+        </div>
+    </div>
+
+    <div class="categories">
+        <h2>| Popular Movies Of all Time </h2>
+        <div class="category">
+            <div class="movies-container-x">
+                <a href="https://new1.filesdl.in/cloud/bnDvuDgFg5xIVNH">
+                    <div class="movie-card-x" data-titel="InfinityWar">
+                        <img src="BG_IMAGE/Infinity_w.jpg" alt="Movie 1">
+                        <h3>INFINITY WAR</h3>
+                        <p>Genre: Action SuperHero</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/4326356682">
+                    <div class="movie-card-x" data-titel="godfather">
+                        <img src="BG_IMAGE/god_father.jpg" alt="Movie 1">
+                        <h3>THE GOD FATHER</h3>
+                        <p>Genre: Action Crime</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://new1.filesdl.in/cloud/AKTjH8LKqd7JH7w">
+                    <div class="movie-card-x" data-titel="Avengerendgame">
+                        <img src="BG_IMAGE/Endgm.jpg" alt="Movie 1">
+                        <h3>AVENGERS ENDGAME</h3>
+                        <p>Genre: Action SuperHero</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://archive.org/download/GOT.S01.720p.BluRay.Full.Pack.MR.ZAZA">
+                    <div class="movie-card-x" data-titel="got">
+                        <img src="BG_IMAGE/Game-of-Thrones.jpg" alt="Movie 1">
+                        <h3>GAME OF THRONES</h3>
+                        <p>Genre: Action Thriller</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+
+                <a href="https://links.bollydrive.rest/archives/1975">
+                    <div class="movie-card-x" data-titel="Starwars">
+                        <img src="BG_IMAGE/starwars.jpg" alt="Movie 1">
+                        <h3>STAR WARS !V</h3>
+                        <p>Genre: Action SuperHero</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/3520150929">
+                    <div class="movie-card-x" data-titel="The Dark Knight">
+                        <img src="BG_IMAGE/dark_knight" alt="Movie 1">
+                        <h3>THE DARK KNIGHT</h3>
+                        <p>Genre: Action Thriller</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/3812631943">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/wednesday-netflix.jpg" alt="Movie 1">
+                        <h3>WEDNESS DAY</h3>
+                        <p>Genre: Adventure Drama</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/7023353408">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/LordoftheRings.jpeg" alt="Movie 1">
+                        <h3>THE LORD OF RINGS</h3>
+                        <p>Genre: Action Adventure</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/3623352006">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/inception_im.jpg" alt="Movie 1">
+                        <h3>INCEPTION</h3>
+                        <p>Genre: Science Friction</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/2749782807">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/stranger_things.jpg" alt="Movie 1">
+                        <h3>STRANGER THINGS</h3>
+                        <p>Genre: Thriller Drama</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/3648700471">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/titanic.jpg" alt="Movie 1">
+                        <h3>TITANIC</h3>
+                        <p>Genre: Romantic Drama</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://vgmlinks.lol/6760af75523d5">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/spide_man.jpg" alt="Movie 1">
+                        <h3>SPIDERMAN</h3>
+                        <p>Genre: Action SuperHero</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/1700643076">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/breaking_bda.jpg" alt="Movie 1">
+                        <h3>BREAKING BAD</h3>
+                        <p>Genre: Psycology Chemical</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://bollydrive.rest/file/64911390">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/fast-and-furious.jpg" alt="Movie 1">
+                        <h3>FAST & FURIOUS</h3>
+                        <p>Genre: Action Thriller</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/1696571557">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/matrix" alt="Movie 1">
+                        <h3>THE MATRIX</h3>
+                        <p>Genre: ScienceFriction</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="https://hubdrive.dad/file/1688034803">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/witcher" alt="Movie 1">
+                        <h3>THE WITCHER</h3>
+                        <p>Genre: Psycology Thriller</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/jamesbond.jpg" alt="Movie 1">
+                        <h3>JAMES BOND</h3>
+                        <p>Genre: Action Adventure</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="movie-card-x">
+                        <img src="BG_IMAGE/forret_gump.jpg" alt="Movie 1">
+                        <h3>FORRET GUMP</h3>
+                        <p>Genre: ScienceFriction</p>
+                        <p>Quality: 1080p</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="section parallax parallax-1">
+            Get ready to be transported.<br>
+            Immerse yourself in the silver screen.<br>
+            Let the show begin.
+        </div>
+
+        <div class="section content-p">
+            <p class="prg">Discover the power of Cinema with MOVIE HUB </p>
+        </div>
+
+        <div class="section parallax parallax-2">
+            The cinematography is breathtaking <br> the performances are unforgettable, and the story is simply
+            timeless.
+        </div>
+
+        <div class="section content-p2">
+            <p class="prg">With Your Favourite Genere </p>
+        </div>
+
+        <div class="section parallax parallax-3">
+            May the magic of movies always transport you.<br>
+            May every frame tell a story that lingers.<br>
+            Thank you for sharing this cinematic journey with us.
+        </div>
+
+        <div class="section content-p3">
+            <p class="prg">Developer Info </p>
+        </div>
+    </div>
+
+    <div class="main-box-frame">
+        <div class="center-box">
+            <img src="EDITORx_.jpg" alt="Developer_Image">
+        </div>
+        <div class="main-box-footer">
+            <div class="box1">
+                <p class="about">About</p>
+                <p class="">@Developed by - SARBESWAR ROUT </p>
+                <p class="">BCA Graduate </p>
+                <p class="">IT Enthuastics </p>
+            </div>
+            <div class="box2">
+                <p class="social">Social Links</p>
+                <a href="https://github.com/Editor-X-sarbE" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sarbeswar-rout-editx011/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100069152012093&mibextid=2JQ9oc%20%20:-%20FACEBOOK"
+                    target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/editor_x_sarbe" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCDq-5reSMvf-dX1AV8uAohA" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.threads.net/@editor__x__sarbe" target="_blank"><i
+                        class="fa-brands fa-square-threads"></i></a>
+                <a href="https://x.com/Sarbeswar_rout_" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                <p class="i">Github Linked.in Facebook Instagram Youtube Threads Twitter</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="ftext">&copy; 2024 Browse_x_Movies .</p>
+    </footer>
+
+    <script src="MOVIE_PAGE.js"></script>
+</body>
+
+</html>

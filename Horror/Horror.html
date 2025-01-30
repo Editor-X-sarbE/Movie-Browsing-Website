@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="movie_logo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Horror.css">
+    <title>Horror</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navigation-logo"> <!--Logo area-->
+                <div class="logo">
+                    <h2>MOVIE HUB</h2>
+                </div> <!---->
+            </div>
+            <!--NAV BAR ADDRESS PART-->
+            <div class="navigation-address">
+                <div class="address-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="india">India</p>
+                </div>
+            </div>
+            <!--NAVBAR SEARCH ICON PART-->
+            <div class="navigation-search navigation-search-borderseperate">
+                <select class="search-select">
+                    <option>All</option>
+                    <option>Categories _*</option>
+                    <option>Categories _*</option>
+                    <option>Categories _*</option>
+                </select>
+                <input type="text" id="search" placeholder="Movie Search" class="search-input" onkeyup="searchMovie()">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!--NAVIGATION LANGUAGE PART-->
+            <div class="navigation-language ">
+                <p>Language</p>
+                <i class="fa-solid fa-language"></i>
+                <select class="language-choice">
+                    <option>L</option>
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>Urdhu</option>
+                </select>
+            </div>
+            <!--NAVIGATION SIGN PART-->
+            <div class="navigation-sign ">
+                <a href=""><i class="fa-solid fa-house-chimney-crack"></i></a>
+            </div>
+            <!--NAVIGTION RETURN PART-->
+            <div class="navigation-return ">
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <!--NAVIGATION CART PART-->
+            <div class="navigation-cart ">
+                <a href="https://www.wikipedia.org/"><i class="fa-brands fa-opencart"></i></a>
+                Collection
+            </div>
+        </div>
+
+        <!--BODY PANNEL SECTION-->
+        <div class="panel">
+            <!--PANEL OPOTION SECTION-->
+            <div class="panel-ops">
+                <p class="">HORROR</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="movies-container">
+        <a href="https://hubdrive.dad/file/2230825449">
+            <div class="marvel" data-title="Evil Dead Rise">
+                <img src="Eviddeadrise.jpg" alt="movie 1">
+                <h3>EVIL D RISE</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://hubdrive.my/file/1697461617">
+            <div class="marvel" data-title="nun2">
+                <img src="Nun2.jpg" alt="movie 2">
+                <h3>NUN !!</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="">
+            <div class="marvel" data-title="it">
+                <img src="iT.jpg" alt="movie 3">
+                <h3>IT</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://hubdrive.dad/file/1698217141">
+            <div class="marvel" data-title="Exorsistc">
+                <img src="Exorsist.jpg" alt="movie 4">
+                <h3>EXORSISTC</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://hubdrive.dad/file/3862919622">
+            <div class="marvel" data-title="CONSURING2">
+                <img src="Consuring.jpg" alt="movie 5">
+                <h3>CONSURING !!</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://hubdrive.dad/file/4075066145">
+            <div class="marvel" data-title="anabele creation">
+                <img src="anabela.jpg" alt="movie 6">
+                <h3>ANABELE CREATION</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://archive.org/details/hereditary.-2018-dual-audio-hindi-mkvmoviespoint-1080p-blu-ray">
+            <div class="marvel" data-title="HEREDITARY">
+                <img src="HEREDITARY.jpg" alt="movie 7">
+                <h3>HEREDITARY</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://hubdrive.my/file/1697461617">
+            <div class="marvel" data-title="nun1">
+                <img src="Nun1.jpg" alt="movie 8">
+                <h3>NUN !</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+
+        <a href="https://hubdrive.dad/file/1849971542">
+            <div class="marvel" data-title="smile2">
+                <img src="smile2.jpg" alt="movie 9">
+                <h3>SMILE 2</h3>
+                <p>Gener: Horror</p>
+                <p>Quality: 1080p</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- all footer contents starts here -------------------------------------------------- -->
+
+    <div class="section content-p3">
+        <p class="prg">Developer Info </p>
+    </div>
+
+    <div class="main-box-frame">
+        <div class="center-box">
+            <img src="EDITORx_.jpg" alt="Developer_Image">
+        </div>
+        <div class="main-box-footer">
+            <div class="box1">
+                <p class="about">About</p>
+                <p class="">@Developed by - SARBESWAR ROUT </p>
+                <p class="">BCA Graduate </p>
+                <p class="">IT Enthuastics </p>
+            </div>
+            <div class="box2">
+                <p class="social">Social Links</p>
+                <a href="https://github.com/Editor-X-sarbE" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sarbeswar-rout-editx011/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100069152012093&mibextid=2JQ9oc%20%20:-%20FACEBOOK"
+                    target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/editor__x__sarbe?igshid=OGQ5ZDc2ODk2ZA==.%20:-INSTAGRAM"
+                    target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCDq-5reSMvf-dX1AV8uAohA" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.threads.net/@editor__x__sarbe" target="_blank"><i
+                        class="fa-brands fa-square-threads"></i></a>
+                <a href="https://x.com/Sarbeswar_rout_" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                <p class="i">Github Linked.in Facebook Instagram Youtube Threads Twitter</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="ftext">&copy; 2024 Browse_x_Movies .</p>
+    </footer>
+
+    <script src="Horror.js"></script>
+</body>
+
+</html>
